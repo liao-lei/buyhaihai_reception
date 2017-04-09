@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/shoppingcart.css">
+    <title>购物车</title>
+    <style>
+      td img{width: 70px;height:70px}
+    </style>
+  </head>
+  <body>
+    <header class="header">
+      <div>&lt;</div>
+      <p>购物车</p>
+      <button>删除</button>
+    </header>
+    <div class="content">
+      <div class="allgoods">
+        <button>全选/去全选</button>
+        <input type="checkbox"/>PRE
+      </div>
+      <!-- 购物车中商品 -->
+      <div class="list_goods" id="shopcar" >
+        <!-- <input type="checkbox"/>
+        <img class="goods_tu" src="img/24.jpg" alt="" />
+        <div class="info">
+          <p class="p1">套装促销千思蔓水嫩凝肌蚕丝+雪肌蚕丝面膜组合套装25ml*2盒</p>
+          <p class="p2">¥2.00+100.00惠币</p>
+          <input type="number" class="num" value="1" size="5" maxlength="5" isdlvunit="1" dlvunit="1" oldvalue="1"/>
+          <img src="img/26.png" alt="" />
+        </div> -->
+
+     <!-- <div class="kong"></div> -->
+      <!-- 购物车的的件数和价钱 -->
+      <!-- <div class="all_price">
+        <h4>共 <span> 1 </span> 件商品</h1>
+        <h4>合计（不含运费）： <span>¥0.00+0.0惠币</span></h1>
+      </div>
+      <button class="settlement">去结算</button>
+      <footer class="footer">
+        <p>登陆</p><p>/注册</p>
+      </footer> -->
+    </div>
+    <script id="shopcarTemplate" type="text/x-handlebars-template" >
+        {{#each shopcar}}
+          <div id="shppingcar">
+            <input type="checkbox"/>
+            <img class="goods_tu" src="http://127.0.0.1:3005/{{goods.main_img}}" alt="" />
+            <div class="info">
+              <p class="p1">{{goods.name}}</p>
+              <p class="p2">{{goods.price}}</p>
+              <input type="number" class="num" value="1" size="5" maxlength="5" isdlvunit="1" dlvunit="1" oldvalue="1"/>
+              <img src="img/26.png" alt="" class="delBtn" data-id={{_id}} />
+            </div>
+          </div>
+        {{/each}}
+          <div class="kong"></div>
+           <!-- 购物车的的件数和价钱 -->
+           <div class="all_price">
+             <h4>共 <span> 1 </span> 件商品</h1>
+             <h4>合计(不含运费):<span>¥0.00+0.0惠币</span></h1>
+           </div>
+           <button class="settlement">去结算</button>
+           <footer class="footer">
+             <p>登陆</p><p>/注册</p>
+           </footer>
+    </script>
+
+    <script type="text/javascript" src="js/dist/shoppimgcart.bundle.js"></script>
+  </body>
+</html>

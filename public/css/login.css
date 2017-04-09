@@ -1,0 +1,19 @@
+body{font-size: 16px;}
+.header{width: 7.2rem;height: 1rem;background-color: #ff6600;font-size: 20px;color: #ffffff;}
+.header div{font-weight: 800;float: left;line-height: 1rem;margin: auto 0.26rem;font-size: 30px;}
+.header p{font-weight: 500;float: left;line-height: 1rem;margin: auto 2rem;}
+
+.content{width: 7.2rem;height: 6rem;background-color: #f2f2f2;overflow: hidden;}
+.content .login_head{width: 2.1rem;height: 2.1rem;overflow: hidden;margin:0.45rem auto;}
+.content .login_head img{width: 2.1rem;height: 2.1rem;}
+.content .login_info{width: 6.8rem;height: 1.8rem;background-color: #ffffff;margin: auto;border-radius: 0.1rem;border: 0.01rem solid  #cdcdcd;}
+.content .login_info input{height: 0.5rem;width: 4rem;border: none;outline: none;}
+.content .login_info label{font-weight: 600;}
+.content .login_info .login_user{width: 100%;height: 0.89rem;border-bottom: 0.01rem solid #cdcdcd;line-height: 0.89rem;}
+.content .login_info .login_user img{width: 0.5rem;height: 0.4rem;float: right;margin: 0.24rem 0.2rem;}
+.content .login_info .login_pwd{width: 100%;line-height: 0.89rem;}
+.content .login{width: 6.8rem;height: 0.65rem;color: #ffffff;background-color: #87b901;border-radius: 0.1rem;margin: auto;border: none;outline: none;font-weight: 600;letter-spacing: 0.2rem;margin: 0.2rem 0.2rem;}
+
+.footer{width: 7.2rem;height: 5rem;background-color: #f2f2f2;overflow: hidden;color: #a0a0a0;font-weight: 600;letter-spacing: 0.05rem;}
+.footer .p1{float: left;margin-left: 1.25rem;}
+.footer .p2{float: right;margin-right: 1.25rem;}

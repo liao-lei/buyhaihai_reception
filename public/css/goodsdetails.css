@@ -1,0 +1,28 @@
+body{font-size: 16px;}
+.header{width: 7.2rem;height: 1rem;background-color: #ff6600;font-size: 20px;color: #ffffff;}
+.header div{font-weight: 800;float: left;line-height: 1rem;margin: auto 0.26rem;font-size: 30px;}
+.header p{font-weight: 500;float: left;line-height: 1rem;margin:0 0 0 2rem;}
+.header h6{font-weight: 550;float: right;line-height: 1rem;margin: 0 0.5rem;}
+
+.content{width: 7.2rem;height: auto;}
+.content .gdetail_tu{width: 3.5rem;height: 3.5rem;margin: auto;border-bottom: 0.02rem solid red;}
+.content .gdetail_tu .lunbo{width: 3.5rem;height: 3.5rem;text-align: center;}
+.content .demonstration{width: 90%;margin: 0.5rem auto;font-size: 24px;font-weight: 500;}
+.content h2{width: 90%;margin: 0.5rem auto;font-size: 24px;font-weight: 500;}
+.content h2 .Vipprice{color: #ff6b00;}
+.content h2 span{font-weight: 600;}
+
+.footer{width: 7rem;height: 3rem;margin-left:0.1rem;border-top: 0.02rem solid #b6b6b6;text-align: center;padding-top: 0.5rem;}
+.footer .buy{width: 2.5rem;height: 0.7rem;color: #ffffff;background-color: #ff6b00;border: none;outline: none;border-radius: 0.1rem;}
+.footer .join{width: 2.5rem;height: 0.7rem;color:#ffffff;background-color: #fa9200;border: none;outline: none;border-radius: 0.1rem;}
+
+
+
+
+
+
+
+
+
+
+.jfj{}

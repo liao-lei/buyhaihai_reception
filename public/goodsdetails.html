@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/goodsdetails.css">
+    <title>商品详情</title>
+  </head>
+  <body>
+
+      <header class="header">
+        <div>&lt;</div>
+        <p>产品详情</p>
+        <h6>收藏</h6>
+      </header>
+      <div class="details">
+
+      </div>
+
+      <!-- <div class="content"> -->
+        <!-- <div>
+          <div class="gdetail_tu">
+            <img class="lunbo" src="img/25.jpg" alt="" />
+          </div>
+          <h3 class="demonstration">套装促销纤思蔓水嫩凝肌蚕丝+雪肌蚕丝面膜组合套装</h5>
+          <h2>市场价：&nbsp;&nbsp; <span>¥394.00</span></h2>
+          <h2>会员价：&nbsp;&nbsp; <span class="Vipprice">¥2+100.00惠币</span></h2>
+          <h2>邮费：<span>广东深圳</span>&nbsp;至&nbsp;<span>成都市</span><big>¥39.00</big></h2>
+        </div> -->
+      <!-- </div> -->
+      <!-- <footer class="footer">
+        <button class="buy">立即购买</button>
+        <button class="join">加入购物车</button>
+      </footer> -->
+
+
+    <script type="text/javascript" src="js/dist/gdsdetails.bundle.js"></script>
+    <script id="templateM2" type="text/x-handlebars-template">
+        {{#each goods}}
+            <div class="content">
+              <div class="gdetail_tu">
+                <img class="lunbo" src="http://127.0.0.1:3005/{{datail_img}}" alt="" />
+              </div>
+              <h3 class="demonstration">{{name}}</h5>
+              <h2>市场价：&nbsp;&nbsp; <span>{{price}}</span></h2>
+              <h2>会员价：&nbsp;&nbsp; <span class="Vipprice">{{yprice}}</span></h2>
+              <h2>邮费：<span>广东深圳</span>&nbsp;至&nbsp;<span>成都市</span><big>¥39.00</big></h2>
+            </div>
+            <footer class="footer">
+              <button class="buy">立即购买</button>
+              <button class="join" data-id={{_id}} >加入购物车</button>
+            </footer>
+        {{/each}}
+    </script>
+
+  </body>
+</html>

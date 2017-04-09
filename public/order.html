@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/order.css">
+    <title>订单详情</title>
+  </head>
+  <body>
+
+    <header class="header">
+      <div>&lt;</div>
+      <p>订单详情</p>
+    </header>
+
+    <div class="content">
+      <img class="fenjie" src="img/29.png" alt="" />
+      <img class="dingdan" src="img/28.png" alt="" />
+      <h3 id="shouhuo">
+        收货人:<span id="usersname" style="color:red"></span>&nbsp;<span id="usersphone" style="color:red"></span>
+      </h3>
+      <h4>收货地址:<span>四川省成都市锦江区东安南路41号</span></h4>
+      <img class="fenjie" src="img/29.png" alt="" />
+      <h4>购买的产品：</h4>
+
+      <!-- 订单详情中的商品 -->
+      <div class="goods">
+        <!-- <div class="goods_tu">
+          <img src="img/24.jpg" alt="" />
+        </div>
+        <div class="goods_zi">
+          <h4>套装促销纤思蔓水嫩凝肌蚕丝+雪肌蚕丝面膜组合套装</h4>
+          <h3>￥25.94 &nbsp; ×1</h3>
+        </div> -->
+      </div>
+
+      <!-- 购买的数量等等信息-->
+      <div class="buy_number">
+        <h3>购买数量</h3>
+        <h2> 1 </h2>
+      </div>
+
+      <div class="buy_number">
+        <h3>配送方式</h3>
+        <h2>快递免邮</h2>
+      </div>
+
+      <div class="buy_number">
+        <h3>运费险</h3>
+        <h2>卖家可赠运费险</h2>
+      </div>
+
+      <div class="buy_number">
+        <h3>买家留言</h3>
+        <h2 style="color:#929292">选填</h2>
+      </div>
+
+      <div class="total">
+        <button class="confirm">确认</button>
+        <h3>合计：<span>￥25.94</span></h3>
+      </div>
+    </div>
+
+    <script id="shTemplate2" type="text/x-handlebars-template" >
+        {{#each goodscar}}
+            <div class="goods_tu">
+              <img src="http://127.0.0.1:3005/{{goods.main_img}}" alt="" />
+            </div>
+            <div class="goods_zi">
+              <h4>{{goods.name}}</h4>
+              <h3>{{goods.price}} &nbsp; ×1</h3>
+            </div>
+        {{/each}}
+    </script>
+    <script type="text/javascript" src="js/dist/order.bundle.js"></script>
+  </body>
+</html>

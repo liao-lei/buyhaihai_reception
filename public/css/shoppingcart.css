@@ -1,0 +1,28 @@
+body{font-size: 16px;}
+.header{width: 7.2rem;height: 1rem;background-color: #ff6600;font-size: 20px;color: #ffffff;}
+.header div{font-weight: 800;float: left;line-height: 1rem;margin: auto 0.26rem;font-size: 30px;}
+.header p{font-weight: 500;float: left;line-height: 1rem;margin:0 0 0 2rem;}
+.header button{width: 1.3rem;height: 0.56rem;font-weight: 550;float: right;margin: 0.22rem 0.5rem;line-height:0.56rem;background-color:#ff6600;border: 0.01rem solid #c1bdba;border-radius: 0.1rem;}
+
+.content{width: 7.2rem;height: auto;}
+.content .allgoods{width: 6.8rem;height: 1.5rem;margin: auto;border-bottom: 0.02rem solid #d2d2d2;background-color: #f9f9f9;padding-bottom: 0.5rem;}
+.content .allgoods button{width: 2.5rem;height: 0.56rem;font-weight: 550;background-color: transparent;;border: 0.01rem solid #c1bdba;border-radius: 0.1rem;display: block;margin: 0.5rem 0;}
+.content .allgoods input[type=checkbox]:checked{background-position: right top;}
+.content .allgoods input[type=checkbox] {width: 0.40rem;height: 0.40rem;background: url('../img/27.png') no-repeat;-webkit-appearance: none;display: inline-block;vertical-align: top;outline: none;}
+.content .list_goods{width: 7rem;height: auto;margin: auto;clear: both;}
+.content .list_goods input[type=checkbox]:checked{background-position: right top;margin-top: 0.1rem;}
+.content .list_goods input[type=checkbox] {width: 0.40rem;height: 0.40rem;background: url('../img/27.png') no-repeat;-webkit-appearance: none;display: inline-block;vertical-align: top;outline: none;margin-top: 0.5rem;}
+#shppingcar{clear: both;}
+.content .list_goods .goods_tu{width: 2rem;height: 1.5rem;display: inline-block;}
+.content .list_goods .info{width: 4rem;float: right;font-size: 14px;}
+.content .list_goods .info .num{border: 1px solid #b2b2b2;width: 0.4rem;height: 0.4rem;text-align: center;}
+.content .list_goods .info .p1{color: #0074d9;}
+.content .list_goods .info .p2{display: inline;color: #ff6b00;}
+.content .kong{width: 7.2rem;height: 0.4rem;background: #d1cfcf;margin-top: 0.2rem;clear: both;}
+.content .all_price{width: 7.2rem;height: auto;margin: auto;background-color: #f6f6f9;padding: 0.5rem 0;}
+.content .all_price h4{margin: 0.3rem 0.3rem;}
+.content .all_price h4 span{color: red;}
+.content .settlement{width: 7.2rem;height: 0.6rem;background-color: #ff6b00;border: none;outline: none;border-radius: 0.1rem;color: #ffffff;margin:0.5rem 0;font-weight: 600;}
+
+.footer{width: 7.2rem;height: 1.6rem;}
+.footer p{float: left;color: red;}
